@@ -8,7 +8,7 @@ const port = 3001;
 const client = require('twilio')(process.env.accountSid, process.env.authToken);
 
 const random = Math.floor(Math.random(6)*1000000)
-
+// random stuff
 // Function to send a text message
 function sendTextMessage() {
     client.messages
